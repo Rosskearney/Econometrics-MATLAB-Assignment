@@ -93,20 +93,6 @@ alpha=0.05;         % set significance level of the test
 [Fstatistic, Fpvalue] = Colinearity(X,Y);
 
 
-%% -------------------- PRINT RESULTS ----------------------------
-
-format short g
-xxx = [OLS OLSb ConfidenceIntervals tvalues pvalues];
-yyy = [tcritical Rsqrd AdjRsqrd FStatistic FPvalue];
-
-fprintf('  |---Beta---|     |--SE--|  |---------CI----------|    |t-values|   |p-values|\n')
-disp(xxx)
-
-fprintf('   |t critical|  |R squared|    |Adj R|      |F stat| |F stat p-values|\n')
-disp(yyy)
-
-fprintf('   |0%% quantile||25%% quantile||50%% quantile||75%% quantile||100%% quantile|\n')
-disp(ResSum)
 
 
 
