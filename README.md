@@ -4,7 +4,9 @@ Financial Econometrics MATLAB Assignment
 The purpose of this assignment from FIN41660 Financial Econometrics was to:
 
 
-Create a function to estimate a linear model. One dependent variable and three regressors were chosen.
+Create a function to estimate a linear model. i.e. to model the relationship between dependent and independent variables of the chosen time series.
+
+One dependent variable and three regressors were chosen.
 The MATLAB function of the linear model should have the following outputs:
 
 a) OLS estimator;  
