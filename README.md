@@ -1,7 +1,7 @@
 # Econometrics
-Econometrics MATLAB Assignment
+Financial Econometrics MATLAB Assignment
 
-The purpose of this assignment was to:
+The purpose of this assignment from FIN41660 Financial Econometrics was to:
 
 
 Create a function to estimate a linear model. One dependent variable and three regressors were chosen.
